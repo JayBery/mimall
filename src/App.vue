@@ -25,20 +25,14 @@ export default {
     //   this.res = res;
     // })
     // 本地集成mockjs实现数据mock
-    this.axios.get('/user/login').then((res)=>{
-      this.res = res;
-      console.log(this.res)
-    })
+    // this.axios.get('/user/login').then((res)=>{
+    //   this.res = res;
+    //   console.log(this.res)
+    // })
   }  
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+@import './assets/scss/reset.scss'
 </style>
