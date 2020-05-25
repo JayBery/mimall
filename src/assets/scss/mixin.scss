@@ -4,6 +4,7 @@
     justify-content: $hov;
     align-items: $col;
 }
+//背景图片复用
 @mixin bgImg($w:0,$h:0,$img:'',$size:contain){
     display: inline-block;
     width: $w;
